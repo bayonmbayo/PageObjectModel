@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PageObjectModelSuite">
+	<listeners>
+  		<listener class-name = "com.qa.jira.TestListener"/>
+  	</listeners>
+  <test thread-count="5" name="PageObjectModelTest">
+    <classes>
+    	<class name="com.qa.test.BestellPageTest"/>
+<!--       <class name="com.qa.test.LoginPageTest1"/> -->
+<!--       <class name="com.qa.test.HomePageTest"/> -->
+<!--       <class name="com.qa.test.LoginPageTest"/> -->
+      
+    </classes>
+  </test> <!-- PageObjectModelTest -->
+  </suite> <!-- PageObjectModelSuite -->
